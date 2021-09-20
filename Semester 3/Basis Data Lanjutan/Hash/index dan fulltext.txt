@@ -1,0 +1,3 @@
+SELECT tempat_wisata, deskripsi_wisata FROM wisata_indonesia WHERE MATCH (tempat_wisata, deskripsi_wisata) against ("malang");
+
+explain select nama_dosen, jml_mahasiswa from dosen where jml_mahasiswa > 1

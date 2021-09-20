@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Latihan</title>
+    <link rel="stylesheet" type="text/css" href="asset/css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+</head>
+
+<body>
+
+    <header>
+        <h1>My Website</h1>
+        <p>Welcome to my website !!</p>
+    </header>
+
+    <div id="navbar">
+        <div class="wrap">
+            <div class="title">
+                <!-- Farelamo -->
+            </div>
+            <div class="tblmenubox">
+                <div class="togel tblmenu">
+
+                </div>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="konten">
+        <div class="container">
+            <div class="gambar">
+                <div class="text">
+                    <h1>Kocheng Oyen</h1>
+                    <p>Kucing disebut juga kucing domestik</p>
+                </div>
+                <div>
+                    <img src="img/kucing.jpg" alt="gambar">
+                    <div class="kotak"></div>
+                </div>
+                <div class="text2">
+                    <h1>Kocheng Oyen</h1>
+                    <p>Kucing disebut juga kucing domestik</p>
+                </div>
+            </div>
+           
+
+            <div class="isi">
+
+                <h2>Kocheng Oyen And The Genk</h2>
+
+                <p>Dibuat oleh <a href="#">Fariz Fahmi Faturachmad</a> pada 07 September 2021</p>
+
+                <p class="psatu">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Pellentesque a semper dui. Curabitur commodo dolor et bibendum imperdiet. Maecenas sed dui nunc.
+                    Cras
+                    pellentesque eros vitae mi aliquam consequat. Aenean imperdiet, risus sit amet iaculis tincidunt,
+                    nisl
+                    libero bibendum leo, sit amet consectetur sapien mi id sapien. Mauris ac porta nibh. Etiam vitae ex
+                    ac
+                    eros maximus imperdiet. Donec luctus urna mi, ut ultrices lacus pellentesque at.
+                    Sed non rutrum quam. Vivamus accumsan dolor ac scelerisque pharetra
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Pellentesque a semper dui. Curabitur commodo dolor et bibendum imperdiet. Maecenas sed dui nunc.
+                    Cras
+                    pellentesque eros vitae mi aliquam consequat. Aenean imperdiet, risus sit amet iaculis tincidunt,
+                    nisl
+                    libero bibendum leo, sit amet consectetur sapien mi id sapien. Mauris ac porta nibh. Etiam vitae ex
+                    ac
+                    eros maximus imperdiet. Donec luctus urna mi, ut ultrices lacus pellentesque at.
+                    Sed non rutrum quam. Vivamus accumsan dolor ac scelerisque pharetra
+                    Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                    Sed in tempor sapien. Donec vel metus malesuada, semper enim et, elementum metus.
+                    Sed in viverra mauris. Pellentesque neque purus, maximus ut vulputate at, tincidunt eu risus.
+                    Aliquam ac consequat libero. Nulla rhoncus commodo risus. Ut metus sapien, luctus sit amet
+                    ullamcorper
+                    ac, gravida ut dolor.
+                    Phasellus aliquam laoreet lacus, id imperdiet metus mollis ut. Proin non tempor orci. Cras et nisi
+                    neque.
+                    Ut condimentum erat ex, ut placerat est euismod sit amet.
+                    Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                    Sed in tempor sapien. Donec vel metus malesuada, semper enim et, elementum metus.
+                    Sed in viverra mauris. Pellentesque neque purus, maximus ut vulputate at, tincidunt eu risus.
+                    Aliquam ac consequat libero. Nulla rhoncus commodo risus. Ut metus sapien, luctus sit amet
+                    ullamcorper
+                    ac, gravida ut dolor.
+                    Phasellus aliquam laoreet lacus, id imperdiet metus mollis ut. Proin non tempor orci. Cras et nisi
+                    neque.
+                    Ut condimentum erat ex, ut placerat est euismod sit amet.
+                    Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                    Sed in tempor sapien. Donec vel metus malesuada, semper enim et, elementum metus.
+                    Sed in viverra mauris. Pellentesque neque purus, maximus ut vulputate at, tincidunt eu risus.
+                    Aliquam ac consequat libero. Nulla rhoncus commodo risus. Ut metus sapien, luctus sit amet
+                    ullamcorper
+                    ac, gravida ut dolor.
+                    Phasellus aliquam laoreet lacus, id imperdiet metus mollis ut. Proin non tempor orci. Cras et nisi
+                    neque.
+                    Ut condimentum erat ex, ut placerat est euismod sit amet.
+                </p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        @Copyright2021 | Fariz Fahmi
+    </footer>
+
+    <script src="asset/js/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(".togel.tblmenu").click(function () {
+            $(".menu").toggleClass("sh");
+        });
+    </script>
+    <script>
+        window.onscroll = function () { myFunction() };
+
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script>
+</body>
+
+</html>

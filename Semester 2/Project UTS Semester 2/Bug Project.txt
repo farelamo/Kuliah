@@ -1,0 +1,4 @@
+https://youtu.be/1NRJf8OAdc8
+
+ganti a jadi A huruf besar di user untuk admin agar otomatis ( udh dibenerin di database web )
+waktu search dan tambah, tidak otomatis ke list yang udah ditambahkan kaya di ori version nya
